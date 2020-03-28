@@ -1,2 +1,7 @@
 node_modules
+<<<<<<< HEAD
+=======
+
+backend/src/database/db.sqlite3
+>>>>>>> 4faae986329d52210bf96c837df60898d7e16b5e
 backend/src/database/db.sqlite3
