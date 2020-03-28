@@ -1,5 +1,6 @@
 const express = require('express');
 
+
 const OngController = require('./controllers/OngController');
 const IncidentController = require('./controllers/IncidentController');
 const ProfileController = require('./controllers/ProfileController');
@@ -18,12 +19,10 @@ routes.post('/session', SessionController.create)
 
 
 routes.get('/', function (req, res){
-    // const body = req.body
-  
-    // console.log(body)    
+
     return res.json({
-      evento: 'OmniStack 11',
-      aluno: 'Rafael Turnes'
+    'Course': 'OmniStack 11',
+    'Student': 'Rafael Turnes',
     });
   });
 
